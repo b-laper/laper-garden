@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        body * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+        .search {
+            border: 1px solid black;
+            padding: 2px;
+            margin-top: 5px;
+            background-color: black;
+            color: white;
+            box-shadow: 2px 0 lightgray;
+
+        }
+
+        .add {
+            background-color: lightgrey;
+            margin-bottom: 5px;
+            background-color: black;
+            color: white;
+        }
+
+        .header {
+            text-shadow: 2px 1px lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class='header'>Daily task list</h1>
+    </header>
+
+    <form action=''>
+        <input type="text" placeholder="Add task...">
+        <button class="add">Add Task</button>
+    </form>
+    <input class="searcher" type="text" placeholder="Search task..."> <span class='search'> Search: </span>
+    <section>
+        <h3>Current number of tasks: <span>-</span></h3>
+    </section>
+    <ul></ul>
+    <script src='main.js'></script>
+</body>
+
+</html>
